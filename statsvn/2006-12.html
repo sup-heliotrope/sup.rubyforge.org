@@ -1,0 +1,1854 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StatSVN - December 2006 Commit Log</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="Generator" content="StatSVN 0.3.0"/>
+    <link rel="stylesheet" href="statcvs.css" type="text/css"/>
+  </head>
+
+<body>
+
+<h1>December 2006 Commit Log</h1>
+<div id="parentlink">&#171; <a href="index.html">Development Statistics for  /trunk</a></div>
+
+<div id="nav" class="section">
+<h2>Commit Logs</h2>
+<ul>
+    <li><a href="2007-01.html">January 2007</a></li>
+    <li><span class="here">December 2006</span></li>
+    <li><a href="2006-11.html">November 2006</a></li>
+</ul>
+</div><dl class="attributes">
+    <dt>Number of Commits:</dt>
+    <dd>81</dd>
+    <dt>Number of Active Developers:</dt>
+    <dd>1</dd>
+</dl>
+<dl class="commitlist">
+  <dt><a name="81"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-31 17:50</span>
+    <a class="permalink" title="Permalink to this commit" href="#81">#81</a>
+  </dt>
+  <dd>
+    <p class="comment">
+more imap and ssh bugfixes<br />
+
+    </p>
+    <p class="commitdetails"><strong>13</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        imap.rb&#160;<span class="change">(+1&#160;-1)</span>,
+        source.rb&#160;<span class="change">(+3&#160;-1)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        ssh-loader.rb&#160;<span class="change">(+7&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="80"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-31 16:28</span>
+    <a class="permalink" title="Permalink to this commit" href="#80">#80</a>
+  </dt>
+  <dd>
+    <p class="comment">
+massive fixes for imap and mbox+ssh<br />
+
+    </p>
+    <p class="commitdetails"><strong>204</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup-import&#160;<span class="change">(+5&#160;-1)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        imap.rb&#160;<span class="change">(+85&#160;-50)</span>,
+        index.rb&#160;<span class="change">(+1&#160;-2)</span>,
+        message.rb&#160;<span class="change">(+1&#160;-1)</span>,
+        source.rb&#160;<span class="change">(+40&#160;-16)</span>,
+        util.rb&#160;<span class="change">(+4)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(-3)</span>,
+        ssh-file.rb&#160;<span class="change">(+51&#160;-26)</span>,
+        ssh-loader.rb&#160;<span class="change">(+17&#160;-11)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="79"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-31 09:20</span>
+    <a class="permalink" title="Permalink to this commit" href="#79">#79</a>
+  </dt>
+  <dd>
+    <p class="comment">
+fixed bug in label assignment for new messages and cleaned up logging messages<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>9</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup&#160;<span class="change">(-2)</span>,
+        sup-import&#160;<span class="change">(-2)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        imap.rb&#160;<span class="change">(+1&#160;-1)</span>,
+        index.rb&#160;<span class="change">(+3&#160;-2)</span>,
+        util.rb&#160;<span class="change">(+4)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="78"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-31 09:16</span>
+    <a class="permalink" title="Permalink to this commit" href="#78">#78</a>
+  </dt>
+  <dd>
+    <p class="comment">
+log messages to $stderr if the buffer is not available<br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        logger.rb&#160;<span class="change">(+2&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="77"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-30 21:35</span>
+    <a class="permalink" title="Permalink to this commit" href="#77">#77</a>
+  </dt>
+  <dd>
+    <p class="comment">
+hit 'R' to quicky recover drafts<br />
+
+    </p>
+    <p class="commitdetails"><strong>17</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup&#160;<span class="change">(+15)</span>
+      </li>
+      <li>
+        <strong>lib/sup/modes</strong>:
+        inbox-mode.rb&#160;<span class="change">(+1&#160;-1)</span>,
+        label-list-mode.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="76"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-30 21:33</span>
+    <a class="permalink" title="Permalink to this commit" href="#76">#76</a>
+  </dt>
+  <dd>
+    <p class="comment">
+better whitespace<br />
+
+    </p>
+    <p class="commitdetails"><strong>8</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        message.rb&#160;<span class="change">(+8&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="75"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-30 18:40</span>
+    <a class="permalink" title="Permalink to this commit" href="#75">#75</a>
+  </dt>
+  <dd>
+    <p class="comment">
+when editing a draft, just jump right in to the edit<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/modes</strong>:
+        thread-view-mode.rb&#160;<span class="change">(+1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="74"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-30 10:45</span>
+    <a class="permalink" title="Permalink to this commit" href="#74">#74</a>
+  </dt>
+  <dd>
+    <p class="comment">
+minor bugfix<br />
+
+    </p>
+    <p class="commitdetails"><strong>3</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(+3&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="73"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-30 10:34</span>
+    <a class="permalink" title="Permalink to this commit" href="#73">#73</a>
+  </dt>
+  <dd>
+    <p class="comment">
+fixed num_results_for<br />
+
+    </p>
+    <p class="commitdetails"><strong>3</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        index.rb&#160;<span class="change">(+3&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="72"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-30 10:25</span>
+    <a class="permalink" title="Permalink to this commit" href="#72">#72</a>
+  </dt>
+  <dd>
+    <p class="comment">
+minor bugfix<br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        message.rb&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="71"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-30 10:21</span>
+    <a class="permalink" title="Permalink to this commit" href="#71">#71</a>
+  </dt>
+  <dd>
+    <p class="comment">
+handle all source errors everywhere with a cute little error message<br />
+
+    </p>
+    <p class="commitdetails"><strong>24</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        message.rb&#160;<span class="change">(+24&#160;-6)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="70"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-30 10:21</span>
+    <a class="permalink" title="Permalink to this commit" href="#70">#70</a>
+  </dt>
+  <dd>
+    <p class="comment">
+wrapped all imap errors so that they turn into source errors<br />
+
+    </p>
+    <p class="commitdetails"><strong>20</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        imap.rb&#160;<span class="change">(+20&#160;-5)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="69"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-30 10:14</span>
+    <a class="permalink" title="Permalink to this commit" href="#69">#69</a>
+  </dt>
+  <dd>
+    <p class="comment">
+normalize whitespace<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/modes</strong>:
+        text-mode.rb&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="68"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-30 10:14</span>
+    <a class="permalink" title="Permalink to this commit" href="#68">#68</a>
+  </dt>
+  <dd>
+    <p class="comment">
+removed refs: header (only there for debugging purposes)<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/modes</strong>:
+        thread-view-mode.rb&#160;<span class="change">(+1&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="67"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-30 10:13</span>
+    <a class="permalink" title="Permalink to this commit" href="#67">#67</a>
+  </dt>
+  <dd>
+    <p class="comment">
+added String#normalize_whitespace and fixed String#wrap to not insert newlines<br />
+
+    </p>
+    <p class="commitdetails"><strong>6</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        util.rb&#160;<span class="change">(+6&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="66"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-30 00:27</span>
+    <a class="permalink" title="Permalink to this commit" href="#66">#66</a>
+  </dt>
+  <dd>
+    <p class="comment">
+whoops!<br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        imap.rb&#160;<span class="change">(+1&#160;-1)</span>,
+        index.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="65"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-29 12:31</span>
+    <a class="permalink" title="Permalink to this commit" href="#65">#65</a>
+  </dt>
+  <dd>
+    <p class="comment">
+minor bugfix<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        index.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="64"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-29 12:28</span>
+    <a class="permalink" title="Permalink to this commit" href="#64">#64</a>
+  </dt>
+  <dd>
+    <p class="comment">
+major improvements in broken source handling<br />
+
+    </p>
+    <p class="commitdetails"><strong>142</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        imap.rb&#160;<span class="change">(+24&#160;-20)</span>,
+        index.rb&#160;<span class="change">(+8&#160;-33)</span>,
+        message.rb&#160;<span class="change">(+31&#160;-30)</span>,
+        source.rb&#160;<span class="change">(+2&#160;-2)</span>,
+        util.rb&#160;<span class="change">(+15)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(+8&#160;-3)</span>,
+        ssh-file.rb&#160;<span class="change">(+29&#160;-69)</span>,
+        ssh-loader.rb&#160;<span class="change">(+10&#160;-3)</span>
+      </li>
+      <li>
+        <strong>lib/sup/modes</strong>:
+        thread-index-mode.rb&#160;<span class="change">(+6&#160;-2)</span>,
+        thread-view-mode.rb&#160;<span class="change">(+8&#160;-7)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="63"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-28 18:34</span>
+    <a class="permalink" title="Permalink to this commit" href="#63">#63</a>
+  </dt>
+  <dd>
+    <p class="comment">
+whoohoo! thread index loading is completely from index now (no need to read<br />
+from sources), so it is FAST FAST FAST!!!<br />
+<br />
+only when we load an individual message does it go to the source.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>11</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        index.rb&#160;<span class="change">(+10&#160;-10)</span>,
+        message.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="62"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-28 18:31</span>
+    <a class="permalink" title="Permalink to this commit" href="#62">#62</a>
+  </dt>
+  <dd>
+    <p class="comment">
+whoops, silly mistake<br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        person.rb&#160;<span class="change">(+2&#160;-6)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="61"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-28 18:23</span>
+    <a class="permalink" title="Permalink to this commit" href="#61">#61</a>
+  </dt>
+  <dd>
+    <p class="comment">
+keeping track of last access times in people.txt now so that we can start<br />
+trimming this file when it gets too big<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>6</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        person.rb&#160;<span class="change">(+6&#160;-5)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="60"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-28 18:10</span>
+    <a class="permalink" title="Permalink to this commit" href="#60">#60</a>
+  </dt>
+  <dd>
+    <p class="comment">
+- created a PersonManager that keeps track of the names of all email addresses<br />
+  ever seen. this will probably need to be intelligently trimmed, but will be<br />
+  used for fast loading of messages from slow sources.<br />
+<br />
+- moved initialization and shutdown to Redwood::start and ::finish in sup.rb.<br />
+<br />
+- poll#initialize no longer automatically starts a thread. you must call<br />
+  #start_thread. (because sup-import now calls Redwood::start which initializes<br />
+  all managers, including pollmanager, and it certainly doesn't make sense to<br />
+  have anything threaded during import)<br />
+<br />
+- misc. comment improvements<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>37</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup&#160;<span class="change">(+4&#160;-10)</span>,
+        sup-import&#160;<span class="change">(+3)</span>
+      </li>
+      <li>
+        <strong>lib</strong>:
+        sup.rb&#160;<span class="change">(+19&#160;-1)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        label.rb&#160;<span class="new">(new)</span>,
+        person.rb&#160;<span class="new">(new)</span>,
+        poll.rb&#160;<span class="change">(+9&#160;-7)</span>,
+        util.rb&#160;<span class="change">(+2&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="59"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-28 17:37</span>
+    <a class="permalink" title="Permalink to this commit" href="#59">#59</a>
+  </dt>
+  <dd>
+    <p class="comment">
+cached message chunks<br />
+
+    </p>
+    <p class="commitdetails"><strong>7</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        message.rb&#160;<span class="change">(+6&#160;-5)</span>
+      </li>
+      <li>
+        <strong>lib/sup/modes</strong>:
+        thread-view-mode.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="58"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-28 17:34</span>
+    <a class="permalink" title="Permalink to this commit" href="#58">#58</a>
+  </dt>
+  <dd>
+    <p class="comment">
+added a nice "loading" message<br />
+
+    </p>
+    <p class="commitdetails"><strong>4</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/modes</strong>:
+        thread-view-mode.rb&#160;<span class="change">(+4&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="57"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-28 17:33</span>
+    <a class="permalink" title="Permalink to this commit" href="#57">#57</a>
+  </dt>
+  <dd>
+    <p class="comment">
+buffermanager.say block mode<br />
+
+    </p>
+    <p class="commitdetails"><strong>5</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        buffer.rb&#160;<span class="change">(+5)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="56"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-28 17:20</span>
+    <a class="permalink" title="Permalink to this commit" href="#56">#56</a>
+  </dt>
+  <dd>
+    <p class="comment">
+minor tweaks that don't really improve much of anything<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>32</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        ssh-file.rb&#160;<span class="change">(+32&#160;-23)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="55"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-28 16:36</span>
+    <a class="permalink" title="Permalink to this commit" href="#55">#55</a>
+  </dt>
+  <dd>
+    <p class="comment">
+added mbox+ssh support (though pretty lame at the moment)<br />
+also changed sup-impor to use highline<br />
+
+    </p>
+    <p class="commitdetails"><strong>277</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        Manifest.txt&#160;<span class="change">(+2)</span>,
+        Rakefile&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>bin</strong>:
+        sup-import&#160;<span class="change">(+13&#160;-5)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        mbox.rb&#160;<span class="change">(+2)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        ssh-file.rb&#160;<span class="new">(new&#160;222)</span>,
+        ssh-loader.rb&#160;<span class="new">(new&#160;37)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="54"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-28 15:38</span>
+    <a class="permalink" title="Permalink to this commit" href="#54">#54</a>
+  </dt>
+  <dd>
+    <p class="comment">
+fencepost error in end_offset<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        draft.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="53"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-28 14:26</span>
+    <a class="permalink" title="Permalink to this commit" href="#53">#53</a>
+  </dt>
+  <dd>
+    <p class="comment">
+made the "indirect participant" indicator a + instead of a -. just fucking felt like it.<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/modes</strong>:
+        thread-index-mode.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="52"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-28 13:20</span>
+    <a class="permalink" title="Permalink to this commit" href="#52">#52</a>
+  </dt>
+  <dd>
+    <p class="comment">
+mbox::loader#total went missing for some reason. replaced.<br />
+re-fixed tokenization in index.rb to do downcasing. i think that's probably<br />
+the right idea for email search.<br />
+
+    </p>
+    <p class="commitdetails"><strong>5</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        index.rb&#160;<span class="change">(+4&#160;-4)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(+1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="51"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-27 14:44</span>
+    <a class="permalink" title="Permalink to this commit" href="#51">#51</a>
+  </dt>
+  <dd>
+    <p class="comment">
+bugfix<br />
+
+    </p>
+    <p class="commitdetails"><strong>4</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        message.rb&#160;<span class="change">(+4&#160;-4)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="50"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-27 13:14</span>
+    <a class="permalink" title="Permalink to this commit" href="#50">#50</a>
+  </dt>
+  <dd>
+    <p class="comment">
+yet more fixes on user queries<br />
+
+    </p>
+    <p class="commitdetails"><strong>8</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        index.rb&#160;<span class="change">(+8&#160;-8)</span>
+      </li>
+      <li>
+        <strong>lib/sup/modes</strong>:
+        thread-index-mode.rb&#160;<span class="change">(-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="49"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-27 12:59</span>
+    <a class="permalink" title="Permalink to this commit" href="#49">#49</a>
+  </dt>
+  <dd>
+    <p class="comment">
+better indexing<br />
+
+    </p>
+    <p class="commitdetails"><strong>6</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        index.rb&#160;<span class="change">(+1&#160;-1)</span>,
+        message.rb&#160;<span class="change">(+5&#160;-5)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="48"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-27 12:40</span>
+    <a class="permalink" title="Permalink to this commit" href="#48">#48</a>
+  </dt>
+  <dd>
+    <p class="comment">
+fixed user query parsing<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/modes</strong>:
+        search-results-mode.rb&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="47"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-27 12:39</span>
+    <a class="permalink" title="Permalink to this commit" href="#47">#47</a>
+  </dt>
+  <dd>
+    <p class="comment">
+improved user query handling<br />
+
+    </p>
+    <p class="commitdetails"><strong>29</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup&#160;<span class="change">(+12&#160;-4)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        index.rb&#160;<span class="change">(+17&#160;-12)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="46"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-26 12:49</span>
+    <a class="permalink" title="Permalink to this commit" href="#46">#46</a>
+  </dt>
+  <dd>
+    <p class="comment">
+moved responsibility for labels out of source and back into subclasses.<br />
+minor tweaks on imap to be a little prettier.<br />
+allowed mbox::loader to take iether a filename or an IO object; the latter<br />
+  will be used for mbox+ssh support<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>19</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        imap.rb&#160;<span class="change">(+4&#160;-2)</span>,
+        source.rb&#160;<span class="change">(-1)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(+15&#160;-8)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="45"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-26 12:43</span>
+    <a class="permalink" title="Permalink to this commit" href="#45">#45</a>
+  </dt>
+  <dd>
+    <p class="comment">
+made better!<br />
+
+    </p>
+    <p class="commitdetails"><strong>25</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        README.txt&#160;<span class="change">(+23&#160;-6)</span>
+      </li>
+      <li>
+        <strong>www</strong>:
+        index.html&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="44"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-26 12:33</span>
+    <a class="permalink" title="Permalink to this commit" href="#44">#44</a>
+  </dt>
+  <dd>
+    <p class="comment">
+added "Browse the SVN repository" link<br />
+
+    </p>
+    <p class="commitdetails"><strong>3</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>www</strong>:
+        index.html&#160;<span class="change">(+3&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="43"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-26 12:33</span>
+    <a class="permalink" title="Permalink to this commit" href="#43">#43</a>
+  </dt>
+  <dd>
+    <p class="comment">
+general updates<br />
+
+    </p>
+    <p class="commitdetails"><strong>55</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>doc</strong>:
+        FAQ.txt&#160;<span class="change">(+18&#160;-17)</span>,
+        Philosophy.txt&#160;<span class="change">(+30&#160;-23)</span>,
+        TODO&#160;<span class="change">(+7)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="42"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-26 12:17</span>
+    <a class="permalink" title="Permalink to this commit" href="#42">#42</a>
+  </dt>
+  <dd>
+    <p class="comment">
+general improvments<br />
+
+    </p>
+    <p class="commitdetails"><strong>58</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>www</strong>:
+        index.html&#160;<span class="change">(+58&#160;-31)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="41"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-25 16:42</span>
+    <a class="permalink" title="Permalink to this commit" href="#41">#41</a>
+  </dt>
+  <dd>
+    <p class="comment">
+fixed inifinite loop when polling drafts if there are no drafts <br />
+(whoops!)<br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        draft.rb&#160;<span class="change">(+2&#160;-7)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="40"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-24 17:53</span>
+    <a class="permalink" title="Permalink to this commit" href="#40">#40</a>
+  </dt>
+  <dd>
+    <p class="comment">
+minor bugfixes<br />
+
+    </p>
+    <p class="commitdetails"><strong>9</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib</strong>:
+        sup.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        index.rb&#160;<span class="change">(+4&#160;-1)</span>,
+        message.rb&#160;<span class="change">(+2)</span>,
+        poll.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>lib/sup/modes</strong>:
+        thread-index-mode.rb&#160;<span class="change">(+1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="39"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-20 14:47</span>
+    <a class="permalink" title="Permalink to this commit" href="#39">#39</a>
+  </dt>
+  <dd>
+    <p class="comment">
+catch both MessageFormatErrors and SourceErrors<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        poll.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="38"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-20 14:47</span>
+    <a class="permalink" title="Permalink to this commit" href="#38">#38</a>
+  </dt>
+  <dd>
+    <p class="comment">
+minor comment cleanup<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/modes</strong>:
+        scroll-mode.rb&#160;<span class="change">(+1&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="37"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-20 14:46</span>
+    <a class="permalink" title="Permalink to this commit" href="#37">#37</a>
+  </dt>
+  <dd>
+    <p class="comment">
+imap bugfix (cur_offset not being stored) and better exception handling<br />
+
+    </p>
+    <p class="commitdetails"><strong>12</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        imap.rb&#160;<span class="change">(+12&#160;-9)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="36"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-20 14:46</span>
+    <a class="permalink" title="Permalink to this commit" href="#36">#36</a>
+  </dt>
+  <dd>
+    <p class="comment">
+small gui improvements, mostly involving snippets<br />
+
+    </p>
+    <p class="commitdetails"><strong>6</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        message.rb&#160;<span class="change">(+2&#160;-5)</span>
+      </li>
+      <li>
+        <strong>lib/sup/modes</strong>:
+        thread-index-mode.rb&#160;<span class="change">(+3&#160;-3)</span>,
+        thread-view-mode.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="35"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-20 14:07</span>
+    <a class="permalink" title="Permalink to this commit" href="#35">#35</a>
+  </dt>
+  <dd>
+    <p class="comment">
+less verbose<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup-import&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="34"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-20 14:07</span>
+    <a class="permalink" title="Permalink to this commit" href="#34">#34</a>
+  </dt>
+  <dd>
+    <p class="comment">
+thread abort on exception moved<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib</strong>:
+        sup.rb&#160;<span class="change">(-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="33"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-20 14:07</span>
+    <a class="permalink" title="Permalink to this commit" href="#33">#33</a>
+  </dt>
+  <dd>
+    <p class="comment">
+fixed search for spam problem<br />
+
+    </p>
+    <p class="commitdetails"><strong>5</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        index.rb&#160;<span class="change">(+5&#160;-7)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="32"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-11 11:05</span>
+    <a class="permalink" title="Permalink to this commit" href="#32">#32</a>
+  </dt>
+  <dd>
+    <p class="comment">
+minor cleanups<br />
+
+    </p>
+    <p class="commitdetails"><strong>8</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup&#160;<span class="change">(+8&#160;-15)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="31"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 17:22</span>
+    <a class="permalink" title="Permalink to this commit" href="#31">#31</a>
+  </dt>
+  <dd>
+    <p class="comment">
+goddammit forgot imap.rb<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        Manifest.txt&#160;<span class="change">(+1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="30"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 17:13</span>
+    <a class="permalink" title="Permalink to this commit" href="#30">#30</a>
+  </dt>
+  <dd>
+    <p class="comment">
+included source.rb<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        Manifest.txt&#160;<span class="change">(+1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="29"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 15:28</span>
+    <a class="permalink" title="Permalink to this commit" href="#29">#29</a>
+  </dt>
+  <dd>
+    <p class="comment">
+christ<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib</strong>:
+        sup.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="28"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 15:27</span>
+    <a class="permalink" title="Permalink to this commit" href="#28">#28</a>
+  </dt>
+  <dd>
+    <p class="comment">
+update to 0.0.2a<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib</strong>:
+        sup.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="27"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 15:26</span>
+    <a class="permalink" title="Permalink to this commit" href="#27">#27</a>
+  </dt>
+  <dd>
+    <p class="comment">
+whoopsie! new message should be new. 0.0.2a<br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        imap.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="26"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 15:08</span>
+    <a class="permalink" title="Permalink to this commit" href="#26">#26</a>
+  </dt>
+  <dd>
+    <p class="comment">
+guess i can't have newlines in there?<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        History.txt&#160;<span class="change">(-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="25"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 15:06</span>
+    <a class="permalink" title="Permalink to this commit" href="#25">#25</a>
+  </dt>
+  <dd>
+    <p class="comment">
+updated for 0.0.2<br />
+
+    </p>
+    <p class="commitdetails"><strong>9</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        History.txt&#160;<span class="change">(+9)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="24"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 15:02</span>
+    <a class="permalink" title="Permalink to this commit" href="#24">#24</a>
+  </dt>
+  <dd>
+    <p class="comment">
+updates for 0.0.2<br />
+
+    </p>
+    <p class="commitdetails"><strong>19</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        README.txt&#160;<span class="change">(+9&#160;-4)</span>
+      </li>
+      <li>
+        <strong>doc</strong>:
+        TODO&#160;<span class="change">(+5)</span>
+      </li>
+      <li>
+        <strong>lib</strong>:
+        sup.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>www</strong>:
+        index.html&#160;<span class="change">(+4&#160;-3)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="23"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 14:58</span>
+    <a class="permalink" title="Permalink to this commit" href="#23">#23</a>
+  </dt>
+  <dd>
+    <p class="comment">
+whoops, forgot to update this. broken =&gt; broken_msg<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        index.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="22"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 14:56</span>
+    <a class="permalink" title="Permalink to this commit" href="#22">#22</a>
+  </dt>
+  <dd>
+    <p class="comment">
+tweaked broken source handling<br />
+
+    </p>
+    <p class="commitdetails"><strong>16</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup-import&#160;<span class="change">(+4)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        imap.rb&#160;<span class="change">(+6&#160;-5)</span>,
+        source.rb&#160;<span class="change">(+4&#160;-4)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="21"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 14:50</span>
+    <a class="permalink" title="Permalink to this commit" href="#21">#21</a>
+  </dt>
+  <dd>
+    <p class="comment">
+minor tweak in help for imap<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup-import&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="20"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 14:48</span>
+    <a class="permalink" title="Permalink to this commit" href="#20">#20</a>
+  </dt>
+  <dd>
+    <p class="comment">
+finishing touches on broken source handling<br />
+
+    </p>
+    <p class="commitdetails"><strong>15</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        imap.rb&#160;<span class="change">(+6&#160;-7)</span>,
+        index.rb&#160;<span class="change">(+1&#160;-1)</span>,
+        source.rb&#160;<span class="change">(+4&#160;-3)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(+4&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="19"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 14:41</span>
+    <a class="permalink" title="Permalink to this commit" href="#19">#19</a>
+  </dt>
+  <dd>
+    <p class="comment">
+unified reporting of thread exceptions<br />
+
+    </p>
+    <p class="commitdetails"><strong>20</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup&#160;<span class="change">(+12&#160;-1)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        poll.rb&#160;<span class="change">(+5&#160;-6)</span>
+      </li>
+      <li>
+        <strong>lib/sup/modes</strong>:
+        label-list-mode.rb&#160;<span class="new">(new)</span>,
+        thread-index-mode.rb&#160;<span class="change">(+3&#160;-8)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="18"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 14:13</span>
+    <a class="permalink" title="Permalink to this commit" href="#18">#18</a>
+  </dt>
+  <dd>
+    <p class="comment">
+(large change) enabled imap support, and reworked everything to allow for<br />
+loading of message from sources that are broken. so if the imap server is<br />
+dead, you still have a somewhat reaosnalbe interface, based on everything<br />
+it knows about the messages from the index.<br />
+
+    </p>
+    <p class="commitdetails"><strong>252</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup-import&#160;<span class="change">(+3&#160;-2)</span>
+      </li>
+      <li>
+        <strong>lib</strong>:
+        sup.rb&#160;<span class="change">(+5&#160;-3)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        draft.rb&#160;<span class="change">(+20&#160;-23)</span>,
+        imap.rb&#160;<span class="change">(+59&#160;-43)</span>,
+        index.rb&#160;<span class="change">(+38&#160;-13)</span>,
+        message.rb&#160;<span class="change">(+15&#160;-5)</span>,
+        sent.rb&#160;<span class="change">(+7&#160;-7)</span>,
+        source.rb&#160;<span class="new">(new&#160;63)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(+42&#160;-70)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="17"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 14:12</span>
+    <a class="permalink" title="Permalink to this commit" href="#17">#17</a>
+  </dt>
+  <dd>
+    <p class="comment">
+minor tweak to align bcc: header<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/modes</strong>:
+        thread-view-mode.rb&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="16"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 14:11</span>
+    <a class="permalink" title="Permalink to this commit" href="#16">#16</a>
+  </dt>
+  <dd>
+    <p class="comment">
+improved handling of killing buffers. buffers now check with the mode<br />
+(via #killable?) before killing. inbox-mode always returns false.<br />
+<br />
+also improved ask_yes_or_no. three outputs: yes, no, and nil (cancel).<br />
+
+    </p>
+    <p class="commitdetails"><strong>38</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup&#160;<span class="change">(+6&#160;-4)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        buffer.rb&#160;<span class="change">(+9&#160;-1)</span>,
+        mode.rb&#160;<span class="new">(new)</span>
+      </li>
+      <li>
+        <strong>lib/sup/modes</strong>:
+        edit-message-mode.rb&#160;<span class="change">(+2&#160;-1)</span>,
+        inbox-mode.rb&#160;<span class="change">(changed)</span>,
+        resume-mode.rb&#160;<span class="change">(+21&#160;-12)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="15"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-10 14:08</span>
+    <a class="permalink" title="Permalink to this commit" href="#15">#15</a>
+  </dt>
+  <dd>
+    <p class="comment">
+handle trailing newlines in log messages<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        logger.rb&#160;<span class="new">(new)</span>
+      </li>
+      <li>
+        <strong>lib/sup/modes</strong>:
+        log-mode.rb&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="14"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-07 16:35</span>
+    <a class="permalink" title="Permalink to this commit" href="#14">#14</a>
+  </dt>
+  <dd>
+    <p class="comment">
+preparations for imap<br />
+
+    </p>
+    <p class="commitdetails"><strong>240</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup&#160;<span class="change">(+1&#160;-3)</span>,
+        sup-import&#160;<span class="change">(+2&#160;-3)</span>,
+        sup-recover-sources&#160;<span class="new">(new&#160;100)</span>
+      </li>
+      <li>
+        <strong>lib</strong>:
+        sup.rb&#160;<span class="change">(+1&#160;-2)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        draft.rb&#160;<span class="change">(+1&#160;-1)</span>,
+        imap.rb&#160;<span class="new">(new&#160;91)</span>,
+        index.rb&#160;<span class="change">(+12&#160;-6)</span>,
+        message.rb&#160;<span class="change">(+20&#160;-17)</span>,
+        poll.rb&#160;<span class="change">(+3&#160;-2)</span>,
+        sent.rb&#160;<span class="change">(+2&#160;-7)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(+3&#160;-2)</span>
+      </li>
+      <li>
+        <strong>lib/sup/modes</strong>:
+        resume-mode.rb&#160;<span class="new">(new)</span>,
+        thread-index-mode.rb&#160;<span class="change">(+4&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="13"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-04 09:47</span>
+    <a class="permalink" title="Permalink to this commit" href="#13">#13</a>
+  </dt>
+  <dd>
+    <p class="comment">
+BREAK_RE =&gt; /^From \S+/<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        mbox.rb&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="12"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-04 01:42</span>
+    <a class="permalink" title="Permalink to this commit" href="#12">#12</a>
+  </dt>
+  <dd>
+    <p class="comment">
+bug fixes with new strict mbox checking<br />
+
+    </p>
+    <p class="commitdetails"><strong>16</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(+16&#160;-10)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="11"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-03 20:58</span>
+    <a class="permalink" title="Permalink to this commit" href="#11">#11</a>
+  </dt>
+  <dd>
+    <p class="comment">
+fix for new mbox offset strictness<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        sent.rb&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="10"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-03 19:17</span>
+    <a class="permalink" title="Permalink to this commit" href="#10">#10</a>
+  </dt>
+  <dd>
+    <p class="comment">
+cleaned up output<br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup-import&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="9"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-03 13:17</span>
+    <a class="permalink" title="Permalink to this commit" href="#9">#9</a>
+  </dt>
+  <dd>
+    <p class="comment">
+removed cruft from index.rb, and made source_info an indexed field, such that<br />
+sup-import --rebuild --start_at will be able to find the right messages to<br />
+delete.<br />
+
+    </p>
+    <p class="commitdetails"><strong>24</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup-import&#160;<span class="change">(+15&#160;-8)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        index.rb&#160;<span class="change">(+9&#160;-48)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="8"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-03 03:59</span>
+    <a class="permalink" title="Permalink to this commit" href="#8">#8</a>
+  </dt>
+  <dd>
+    <p class="comment">
+jump to left with '['<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/modes</strong>:
+        scroll-mode.rb&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="7"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-01 19:34</span>
+    <a class="permalink" title="Permalink to this commit" href="#7">#7</a>
+  </dt>
+  <dd>
+    <p class="comment">
+improved polling behavior<br />
+
+    </p>
+    <p class="commitdetails"><strong>15</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup&#160;<span class="change">(+14&#160;-21)</span>
+      </li>
+      <li>
+        <strong>lib/sup</strong>:
+        buffer.rb&#160;<span class="change">(+1&#160;-1)</span>,
+        poll.rb&#160;<span class="change">(changed)</span>
+      </li>
+      <li>
+        <strong>lib/sup/modes</strong>:
+        poll-mode.rb&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="6"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-01 19:31</span>
+    <a class="permalink" title="Permalink to this commit" href="#6">#6</a>
+  </dt>
+  <dd>
+    <p class="comment">
+added debug check for Thread vs ::Thread, and removed extraneous logging<br />
+
+    </p>
+    <p class="commitdetails"><strong>3</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        thread.rb&#160;<span class="change">(+3&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="5"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-01 16:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#5">#5</a>
+  </dt>
+  <dd>
+    <p class="comment">
+refresh screen after viewing attachment (for ncurses viewers like w3m)<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/modes</strong>:
+        thread-view-mode.rb&#160;<span class="change">(+1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="4"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-01 14:39</span>
+    <a class="permalink" title="Permalink to this commit" href="#4">#4</a>
+  </dt>
+  <dd>
+    <p class="comment">
+added saving of message and attachments to disk (and some bugfixes in buffer<br />
+in support of this).<br />
+
+    </p>
+    <p class="commitdetails"><strong>60</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        buffer.rb&#160;<span class="change">(+3&#160;-3)</span>,
+        draft.rb&#160;<span class="change">(changed)</span>,
+        message.rb&#160;<span class="change">(+11&#160;-4)</span>,
+        thread.rb&#160;<span class="new">(new)</span>
+      </li>
+      <li>
+        <strong>lib/sup/mbox</strong>:
+        loader.rb&#160;<span class="change">(+18&#160;-3)</span>
+      </li>
+      <li>
+        <strong>lib/sup/modes</strong>:
+        thread-view-mode.rb&#160;<span class="change">(+28&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="3"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-01 14:20</span>
+    <a class="permalink" title="Permalink to this commit" href="#3">#3</a>
+  </dt>
+  <dd>
+    <p class="comment">
+disabled message flashing while questions are being asked<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup</strong>:
+        buffer.rb&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="2"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-01 14:19</span>
+    <a class="permalink" title="Permalink to this commit" href="#2">#2</a>
+  </dt>
+  <dd>
+    <p class="comment">
+slight rejiggering of display to handle long buffer names<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>lib/sup/modes</strong>:
+        buffer-list-mode.rb&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="1"></a>
+    <a href="user_wmorgan.html" class="author">wmorgan</a>
+    <span class="date">2006-12-01 12:13</span>
+    <a class="permalink" title="Permalink to this commit" href="#1">#1</a>
+  </dt>
+  <dd>
+    <p class="comment">
+/bin/env =&gt; /usr/bin/env (thanks to Rakan El-Khalil)<br />
+
+    </p>
+    <p class="commitdetails"><strong>25</strong> lines of code changed in:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>bin</strong>:
+        sup&#160;<span class="change">(changed)</span>,
+        sup-import&#160;<span class="change">(+25&#160;-5)</span>
+      </li>
+    </ul>
+  </dd>
+
+</dl>
+
+<p class="previous"><a href="2006-11.html">November 2006</a> &#187; </p>
+<div id="generatedby">Generated by <a href="http://www.statsvn.org">StatSVN</a> 0.3.0</div>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>plugin architecture for tighter SCM integration, etc</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+<div class="main">
+
+<h1>plugin architecture for tighter SCM integration, etc</h1>
+<div class="backptr"><a href="index.html">&laquo; ditz project page</a></div>
+
+
+  <div class="description">
+  <p>you should be able to extend ditz for things like tighter SCM integration.</p><p>basic extension points: adding fields and model objects, changing the
+html and screen output accordingly, adding operations.</p><p>use cases: integrate with git. integrate with a mailing list like sup-talk.</p><p>currently <span class="closed_issue"><a href="issue-be0b8ee4588407615e2ba3acd0edeca08ed24df5.html">model fields and objects need to be extensible</a><img src='green-check.png' alt="fixed" title="fixed"/></span> gives the ability to add field and model objects, and
+adding operations can be done by reopening Ditz::Operator. that's a starting
+point, at least.</p>
+  </div>
+
+
+<h2>Details</h2>
+<table>
+  <tr>
+    <td class="attrname">Id:</td>
+    <td class="attrval">0704dafe4aef96279364013aba177a0971d425cb</td>
+  </tr>
+
+  <tr>
+    <td class="attrname">Type:</td>
+    <td class="attrval">feature</td>
+  </tr>
+
+  <tr>
+    <td class="attrname">Creation time:</td>
+    <td class="attrval">Fri Mar 07 05:05:04 UTC 2008</td>
+  </tr>
+
+  <tr>
+    <td class="attrname">Creator:</td>
+    <td class="attrval"><span class="person">William Morgan &lt;wmorgan-ditz@...&gt;</span></td>
+  </tr>
+
+  
+
+  <tr>
+    <td class="attrname">Release:</td>
+    <td class="attrval">
+      
+        <a href="release-0.4.html">0.4</a>
+        
+          (released 2008-07-27)
+        
+      
+    </td>
+  </tr>
+
+  <tr>
+    <td class="attrname">Component:</td>
+    <td class="attrval"><a href="component-ditz.html">ditz</a></td>
+  </tr>
+
+  <tr>
+    <td class="attrname">Status:</td>
+    <td class="attrval"> 
+      closed: fixed
+      <img src='green-check.png' alt="fixed" title="fixed"/>
+    </td>
+  </tr>
+
+  <tr>
+  <td class='attrname'>Git branch:</td>
+  <td class='attrval'><a href="http://gitorious.org/projects/ditz/repos/mainline/logs/plugins">plugins</a></td>
+</tr>
+<tr>
+  <td class='attrname'>Claimed by:</td>
+  <td class='attrval'></td>
+</tr>
+
+
+</table>
+
+<h2>Commits for this issue</h2>
+<table class="log">
+
+  <tr class="even-row">
+  <td class="time">2008-07-24 22:57 GMT</td>
+  <td class="person">William Morgan &lt;wmorgan-ditz@...&gt;</td>
+  <td class="message">add "commit" command to git-features plugin, which adds a "Ditz-issue" header [<a href="http://gitorious.org/projects/ditz/repos/mainline/commits/8b10e0c">8b10e0c</a>]</td>
+  </tr>
+  <tr><td></td></tr>
+
+</table>
+
+
+<h2>Issue log</h2>
+
+<table class="log">
+
+  <tr class="even-row">
+    <td class="date">2008-07-26 22:29 GMT</td>
+    <td class="person">William Morgan &lt;wmorgan-ditz@...&gt;</td>
+    <td class="message">closed issue with disposition fixed</td>
+  </tr>
+  
+    <tr><td colspan="3" class="logcomment">
+    <p>seems stable enough to close this issue</p>
+    </td></tr>
+  
+  <tr><td></td></tr>
+
+  <tr class="odd-row">
+    <td class="date">2008-07-26 22:28 GMT</td>
+    <td class="person">William Morgan &lt;wmorgan-ditz@...&gt;</td>
+    <td class="message">closed issue with disposition fixed</td>
+  </tr>
+  
+  <tr><td></td></tr>
+
+  <tr class="even-row">
+    <td class="date">2008-06-26 21:49 GMT</td>
+    <td class="person">William Morgan &lt;wmorgan-ditz@...&gt;</td>
+    <td class="message">commented</td>
+  </tr>
+  
+    <tr><td colspan="3" class="logcomment">
+    <p>still listing as in progress in the meantime though
+probably could use a little more refining</p>
+    </td></tr>
+  
+  <tr><td></td></tr>
+
+  <tr class="odd-row">
+    <td class="date">2008-06-26 21:48 GMT</td>
+    <td class="person">William Morgan &lt;wmorgan-ditz@...&gt;</td>
+    <td class="message">commented</td>
+  </tr>
+  
+    <tr><td colspan="3" class="logcomment">
+    <p>merged into master because these are sizeable changes and i think they're pretty stable.</p>
+    </td></tr>
+  
+  <tr><td></td></tr>
+
+  <tr class="even-row">
+    <td class="date">2008-06-26 21:47 GMT</td>
+    <td class="person">William Morgan &lt;wmorgan-ditz@...&gt;</td>
+    <td class="message">assigned to release 0.4 from unassigned</td>
+  </tr>
+  
+  <tr><td></td></tr>
+
+  <tr class="odd-row">
+    <td class="date">2008-06-26 20:25 GMT</td>
+    <td class="person">William Morgan &lt;wmorgan-ditz@...&gt;</td>
+    <td class="message">changed status from unstarted to in_progress</td>
+  </tr>
+  
+  <tr><td></td></tr>
+
+  <tr class="even-row">
+    <td class="date">2008-04-07 04:27 GMT</td>
+    <td class="person">William Morgan &lt;wmorgan-ditz@...&gt;</td>
+    <td class="message">changed title</td>
+  </tr>
+  
+  <tr><td></td></tr>
+
+  <tr class="odd-row">
+    <td class="date">2008-03-31 22:51 GMT</td>
+    <td class="person">William Morgan &lt;wmorgan-ditz@...&gt;</td>
+    <td class="message">changed title, changed description</td>
+  </tr>
+  
+  <tr><td></td></tr>
+
+  <tr class="even-row">
+    <td class="date">2008-03-07 05:05 GMT</td>
+    <td class="person">William Morgan &lt;wmorgan-ditz@...&gt;</td>
+    <td class="message">created</td>
+  </tr>
+  
+  <tr><td></td></tr>
+
+</table>
+
+</div>
+<div class="footer">Generated by <a href="http://ditz.rubyforge.org/">ditz</a>.</div>
+
+</body>
+</html>
